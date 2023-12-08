@@ -124,7 +124,15 @@ p {
   color: #10285d;
   font-size: 16px;
   line-height: 30px;
+<<<<<<< Updated upstream
   margin-bottom: 15px;
+=======
+<<<<<<< HEAD
+  margin-bottom: 19px;
+=======
+  margin-bottom: 15px;
+>>>>>>> d693f3811008c89e71b00aebe566107dbc2a8560
+>>>>>>> Stashed changes
   font-weight: normal;
 }
 .bg-img-1 {
@@ -5987,3 +5995,24 @@ del {
 .switch-wrap {
   margin-bottom: 10px;
 }
+<<<<<<< Updated upstream
+=======
+/* <<<<<<< HEAD
+
+/*SAVANNAH CUSTOM CODE*/
+
+.footer-text {
+  margin-bottom: 18px;
+}
+@media only screen and (max-width:){
+  
+} {
+  
+} {
+  
+} {
+  
+}
+=======
+>>>>>>> d693f3811008c89e71b00aebe566107dbc2a8560 */
+>>>>>>> Stashed changes
