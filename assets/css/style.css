@@ -106,6 +106,9 @@ body {
   font-style: normal;
   font-size: 16px;
 }
+.logo img {
+  height: 40px;
+}
 h1,
 h2,
 h3,
