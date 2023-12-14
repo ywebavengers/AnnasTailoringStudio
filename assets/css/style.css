@@ -2071,13 +2071,13 @@ hr {
   display: inline-block;
   color: #101a31;
 }
-.section-tittle h2 {
+/* .section-tittle h2 {
   font-size: 53px;
   display: block;
   font-weight: 600;
   line-height: 1.4;
-}
-@media only screen and (min-width: 992px) and (max-width: 1199px) {
+} */
+/* @media only screen and (min-width: 992px) and (max-width: 1199px) {
   .section-tittle h2 {
     font-size: 36px;
   }
@@ -2104,7 +2104,7 @@ hr {
   .section-tittle2 h2 {
     font-size: 23px;
   }
-}
+} */
 .section-bg {
   background-size: cover;
   background-repeat: no-repeat;
@@ -2848,7 +2848,7 @@ hr {
 }
 .instagram-area .single-instagram {
   position: relative;
-  width: 400px;
+  width: 700px;
 }
 .instagram-area .single-instagram img {
   width: 400px;
@@ -3581,6 +3581,7 @@ clip-path: polygon(50% 0%, 95% 25%, 95% 75%, 50% 100%, 5% 75%, 5% 25%);
 }
 .footer-wrapper {
   position: relative;
+  margin-top: 600px;
 }
 @media only screen and (min-width: 768px) and (max-width: 991px) {
   .footer-wrapper {
@@ -6145,23 +6146,26 @@ del {
 >>>>>>> Stashed changes
 
 .gallery{
-  position:relative;
+  /* position:relative; */
   height:100%;
   width:100%;
+  padding-right: 800px;
+  display: flex;
 }
+
+.boxcontainer {
+  justify-content: center;
+}
+
 
 .gallery:after{
   content:'';
 }
 
-.shadow{
-  position: absolute;
-  top: 500px;
-  left: 100px;
-  width: 500px;
-  height: 40px;
-  border-radius: 50%;
-  background: radial-gradient(#805d78,rgba(0,0,0,0) 70%);
+.gallery  .clipped-border {
+ display: flex;
+ justify-content: center;
+ 
 }
 
 img{
