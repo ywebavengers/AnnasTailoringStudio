@@ -6129,4 +6129,11 @@ del {
 .switch-wrap {
   margin-bottom: 10px;
 }
+.img-fluid {
+  height: 250px;
+  width:350px;
+  border-width: 4px;
+  border-color: black;
+  
+}
 
