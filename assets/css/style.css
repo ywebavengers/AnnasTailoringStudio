@@ -127,15 +127,11 @@ p {
   color: #10285d;
   font-size: 16px;
   line-height: 30px;
-<<<<<<< Updated upstream
   margin-bottom: 15px;
-=======
-<<<<<<< HEAD
+
   margin-bottom: 19px;
-=======
   margin-bottom: 15px;
->>>>>>> d693f3811008c89e71b00aebe566107dbc2a8560
->>>>>>> Stashed changes
+
   font-weight: normal;
 }
 .bg-img-1 {
@@ -2071,13 +2067,13 @@ hr {
   display: inline-block;
   color: #101a31;
 }
-.section-tittle h2 {
+/* .section-tittle h2 {
   font-size: 53px;
   display: block;
   font-weight: 600;
   line-height: 1.4;
-}
-@media only screen and (min-width: 992px) and (max-width: 1199px) {
+} */
+/* @media only screen and (min-width: 992px) and (max-width: 1199px) {
   .section-tittle h2 {
     font-size: 36px;
   }
@@ -2104,7 +2100,7 @@ hr {
   .section-tittle2 h2 {
     font-size: 23px;
   }
-}
+} */
 .section-bg {
   background-size: cover;
   background-repeat: no-repeat;
@@ -2844,16 +2840,14 @@ hr {
 }
 .instagram-area .section-tittle img {
   margin-bottom: 30px;
-
 }
 .instagram-area .single-instagram {
   position: relative;
-  width: 400px;
+  width: 700px;
 }
 .instagram-area .single-instagram img {
   width: 400px;
   height: 300px;
-  
 }
 .instagram-area .single-instagram::before {
   position: absolute;
@@ -3314,124 +3308,134 @@ hr {
     infinite;
   animation: btnIconRipple 2s cubic-bezier(0.23, 1, 0.32, 1) both infinite;
 }
-.gallery{
-  position:relative;
-  height:100%;
-  width:100%;
+.gallery {
+  position: relative;
+  height: 100%;
+  width: 100%;
 }
 
-.gallery:after{
-  content:'';
+.gallery:after {
+  content: "";
 }
 
-.shadow{
+.shadow {
   position: absolute;
   top: 500px;
   left: 100px;
   width: 500px;
   height: 40px;
   border-radius: 50%;
-  background: radial-gradient(#805d78,rgba(0,0,0,0) 70%);
+  background: radial-gradient(#805d78, rgba(0, 0, 0, 0) 70%);
 }
 
-img{
-  width:var(--width);
-  height:var(--height);
+img {
+  width: var(--width);
+  height: var(--height);
 }
 
-.clipped-border{
-  -webkit-clip-path: polygon(50% 0%, 95% 25%, 95% 75%, 50% 100%, 5% 75%, 5% 25%);
-   clip-path: polygon(50% 0%, 95% 25%, 95% 75%, 50% 100%, 5% 75%, 5% 25%);
-   padding:5px;
-   background:linear-gradient(grey,lightgrey);
-   width:var(--border-width);
-   height:var(--border-height);
-   max-height:250px;
-   max-width:250px;
-   height: var(--height);
-   width:var(--width);
-   transition:transform 0.2s;
-   position:absolute;
-   cursor:pointer;
+.clipped-border {
+  -webkit-clip-path: polygon(
+    50% 0%,
+    95% 25%,
+    95% 75%,
+    50% 100%,
+    5% 75%,
+    5% 25%
+  );
+  clip-path: polygon(50% 0%, 95% 25%, 95% 75%, 50% 100%, 5% 75%, 5% 25%);
+  padding: 5px;
+  background: linear-gradient(grey, lightgrey);
+  width: var(--border-width);
+  height: var(--border-height);
+  max-height: 250px;
+  max-width: 250px;
+  height: var(--height);
+  width: var(--width);
+  transition: transform 0.2s;
+  position: absolute;
+  cursor: pointer;
 }
 
-
-
-.clipped-border:before{
-  content:'';
-  position:absolute;
-  opacity:0.5;
-  width:350px;
-  height:70px;
-  background:white;
-  top:0;
-  left:0;
-  z-index:1;
-  transform:rotate(45deg);
-  transition:transform 0.5s;
+.clipped-border:before {
+  content: "";
+  position: absolute;
+  opacity: 0.5;
+  width: 350px;
+  height: 70px;
+  background: white;
+  top: 0;
+  left: 0;
+  z-index: 1;
+  transform: rotate(45deg);
+  transition: transform 0.5s;
 }
 
-.clipped-border:hover:before{
-  transform: translate(-100px,400%) rotate(45deg);
-  transition:transform 0.5s;
+.clipped-border:hover:before {
+  transform: translate(-100px, 400%) rotate(45deg);
+  transition: transform 0.5s;
 }
 
-.clipped-border:nth-child(2){
-  top:196px;
-  left:118px;
+.clipped-border:nth-child(2) {
+  top: 196px;
+  left: 118px;
 }
 
-.clipped-border:nth-child(3){
-  top:0;
-  left:235px;
+.clipped-border:nth-child(3) {
+  top: 0;
+  left: 235px;
 }
 
-.clipped-border:nth-child(4){
-  top:196px;
-  left:353px;
+.clipped-border:nth-child(4) {
+  top: 196px;
+  left: 353px;
 }
 
-.clipped-border:nth-child(5){
-  top:0;
-  left:470px;
+.clipped-border:nth-child(5) {
+  top: 0;
+  left: 470px;
 }
 
 #clipped {
--webkit-clip-path: polygon(50% 0%, 95% 25%, 95% 75%, 50% 100%, 5% 75%, 5% 25%);
-clip-path: polygon(50% 0%, 95% 25%, 95% 75%, 50% 100%, 5% 75%, 5% 25%);
-
+  -webkit-clip-path: polygon(
+    50% 0%,
+    95% 25%,
+    95% 75%,
+    50% 100%,
+    5% 75%,
+    5% 25%
+  );
+  clip-path: polygon(50% 0%, 95% 25%, 95% 75%, 50% 100%, 5% 75%, 5% 25%);
 }
 
-.clipped-border:hover{
-  transform:scale(1.2);
-  transition:transform 0.2s;
-  z-index:10;
+.clipped-border:hover {
+  transform: scale(1.2);
+  transition: transform 0.2s;
+  z-index: 10;
 }
 
+@media screen and (max-width: 500px) {
+  .clipped-border {
+    width: 100px;
+    height: 100px;
+  }
 
-@media screen and (max-width:500px){
-  .clipped-border{
-    width:100px;
-    height:100px;
+  .clipped-border:nth-child(2) {
+    top: 0;
+    left: 100px;
   }
-  
-  .clipped-border:nth-child(2){
-    top:0;
-    left:100px;
+
+  .clipped-border:nth-child(3) {
+    left: 200px;
   }
-  
-  .clipped-border:nth-child(3){
-    left:200px;
+
+  .clipped-border:nth-child(4) {
+    top: 82px;
+    left: 50px;
   }
-  
-  .clipped-border:nth-child(4){
-    top:82px;
-    left:50px;
-  }
-  
-  .clipped-border:nth-child(5){
-    top:82px;
-    left:150px;
+
+  .clipped-border:nth-child(5) {
+    top: 82px;
+    left: 150px;
   }
 }
 @-webkit-keyframes btnIconRipple {
@@ -3581,6 +3585,7 @@ clip-path: polygon(50% 0%, 95% 25%, 95% 75%, 50% 100%, 5% 75%, 5% 25%);
 }
 .footer-wrapper {
   position: relative;
+  margin-top: 600px;
 }
 @media only screen and (min-width: 768px) and (max-width: 991px) {
   .footer-wrapper {
@@ -6122,147 +6127,135 @@ del {
 .switch-wrap {
   margin-bottom: 10px;
 }
-<<<<<<< Updated upstream
-=======
-/* <<<<<<< HEAD
 
-
-<<<<<<< Updated upstream
-.footer-text {
-  margin-bottom: 18px;
-}
-@media only screen and (max-width:){
-  
-} {
-  
-} {
-  
-} {
-  
-}
-=======
->>>>>>> d693f3811008c89e71b00aebe566107dbc2a8560 */
->>>>>>> Stashed changes
-
-.gallery{
-  position:relative;
-  height:100%;
-  width:100%;
+.gallery {
+  /* position:relative; */
+  height: 100%;
+  width: 100%;
+  padding-right: 800px;
+  display: flex;
 }
 
-.gallery:after{
-  content:'';
+.boxcontainer {
+  justify-content: center;
 }
 
-.shadow{
+.gallery:after {
+  content: "";
+}
+
+.gallery .clipped-border {
+  display: flex;
+  justify-content: center;
+}
+
+img {
+  width: var(--width);
+  height: var(--height);
+}
+
+.clipped-border {
+  -webkit-clip-path: polygon(
+    50% 0%,
+    95% 25%,
+    95% 75%,
+    50% 100%,
+    5% 75%,
+    5% 25%
+  );
+  clip-path: polygon(50% 0%, 95% 25%, 95% 75%, 50% 100%, 5% 75%, 5% 25%);
+  padding: 5px;
+  background: linear-gradient(grey, lightgrey);
+  width: var(--border-width);
+  height: var(--border-height);
+  max-height: 250px;
+  max-width: 250px;
+  height: var(--height);
+  width: var(--width);
+  transition: transform 0.2s;
   position: absolute;
-  top: 500px;
-  left: 100px;
-  width: 500px;
-  height: 40px;
-  border-radius: 50%;
-  background: radial-gradient(#805d78,rgba(0,0,0,0) 70%);
+  cursor: pointer;
 }
 
-img{
-  width:var(--width);
-  height:var(--height);
+.clipped-border:before {
+  content: "";
+  position: absolute;
+  opacity: 0.5;
+  width: 350px;
+  height: 70px;
+  background: white;
+  top: 0;
+  left: 0;
+  z-index: 1;
+  transform: rotate(45deg);
+  transition: transform 0.5s;
 }
 
-.clipped-border{
-  -webkit-clip-path: polygon(50% 0%, 95% 25%, 95% 75%, 50% 100%, 5% 75%, 5% 25%);
-   clip-path: polygon(50% 0%, 95% 25%, 95% 75%, 50% 100%, 5% 75%, 5% 25%);
-   padding:5px;
-   background:linear-gradient(grey,lightgrey);
-   width:var(--border-width);
-   height:var(--border-height);
-   max-height:250px;
-   max-width:250px;
-   height: var(--height);
-   width:var(--width);
-   transition:transform 0.2s;
-   position:absolute;
-   cursor:pointer;
+.clipped-border:hover:before {
+  transform: translate(-100px, 400%) rotate(45deg);
+  transition: transform 0.5s;
 }
 
-
-
-.clipped-border:before{
-  content:'';
-  position:absolute;
-  opacity:0.5;
-  width:350px;
-  height:70px;
-  background:white;
-  top:0;
-  left:0;
-  z-index:1;
-  transform:rotate(45deg);
-  transition:transform 0.5s;
+.clipped-border:nth-child(2) {
+  top: 196px;
+  left: 118px;
 }
 
-.clipped-border:hover:before{
-  transform: translate(-100px,400%) rotate(45deg);
-  transition:transform 0.5s;
+.clipped-border:nth-child(3) {
+  top: 0;
+  left: 235px;
 }
 
-.clipped-border:nth-child(2){
-  top:196px;
-  left:118px;
+.clipped-border:nth-child(4) {
+  top: 196px;
+  left: 353px;
 }
 
-.clipped-border:nth-child(3){
-  top:0;
-  left:235px;
-}
-
-.clipped-border:nth-child(4){
-  top:196px;
-  left:353px;
-}
-
-.clipped-border:nth-child(5){
-  top:0;
-  left:470px;
+.clipped-border:nth-child(5) {
+  top: 0;
+  left: 470px;
 }
 
 #clipped {
--webkit-clip-path: polygon(50% 0%, 95% 25%, 95% 75%, 50% 100%, 5% 75%, 5% 25%);
-clip-path: polygon(50% 0%, 95% 25%, 95% 75%, 50% 100%, 5% 75%, 5% 25%);
-
+  -webkit-clip-path: polygon(
+    50% 0%,
+    95% 25%,
+    95% 75%,
+    50% 100%,
+    5% 75%,
+    5% 25%
+  );
+  clip-path: polygon(50% 0%, 95% 25%, 95% 75%, 50% 100%, 5% 75%, 5% 25%);
 }
 
-.clipped-border:hover{
-  transform:scale(1.2);
-  transition:transform 0.2s;
-  z-index:10;
+.clipped-border:hover {
+  transform: scale(1.2);
+  transition: transform 0.2s;
+  z-index: 10;
 }
 
+@media screen and (max-width: 500px) {
+  .clipped-border {
+    width: 100px;
+    height: 100px;
+  }
 
-@media screen and (max-width:500px){
-  .clipped-border{
-    width:100px;
-    height:100px;
+  .clipped-border:nth-child(2) {
+    top: 0;
+    left: 100px;
   }
-  
-  .clipped-border:nth-child(2){
-    top:0;
-    left:100px;
+
+  .clipped-border:nth-child(3) {
+    left: 200px;
   }
-  
-  .clipped-border:nth-child(3){
-    left:200px;
+
+  .clipped-border:nth-child(4) {
+    top: 82px;
+    left: 50px;
   }
-  
-  .clipped-border:nth-child(4){
-    top:82px;
-    left:50px;
-  }
-  
-  .clipped-border:nth-child(5){
-    top:82px;
-    left:150px;
+
+  .clipped-border:nth-child(5) {
+    top: 82px;
+    left: 150px;
   }
 }
-=======
->>>>>>> Stashed changes
